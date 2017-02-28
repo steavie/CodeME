@@ -1,0 +1,7 @@
+-- videomode festlegen mit VboxManage
+VBoxManage setextradata "win7Lon" "CustomVideoMode1" "2560x1440x32"
+-- Windows aktivierung beim importieren umgehen
+--UUID auslesen Original VM
+/Applications/VirtualBox.app/Contents/MacOS/VBoxManage showvminfo /Users/kriesel/VirtualBox\ VMs/win7Lon/win7Lon.vbox > uuid.txt
+--UUID setzen beim importieren -> nach import nicht starten sondern "modifyvm"ausfürhen
+/Applications/VirtualBox.app/Contents/MacOS/VBoxManage modifyvm  /Users/kriesel/VirtualBox\ VMs/win7Lon_1/win7Lon_1.vbox --hardwareuuid 5fbdb469-c08c-444e-a2ce-dde71ca4d24d 
