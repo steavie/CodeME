@@ -7,3 +7,4 @@ VBoxManage setextradata "win7Lon" "CustomVideoMode1" "2560x1440x32"
 --UUID setzen beim importieren -> nach import nicht starten sondern "modifyvm"ausfürhen
 /Applications/VirtualBox.app/Contents/MacOS/VBoxManage modifyvm  /Users/kriesel/VirtualBox\ VMs/win7Lon_1/win7Lon_1.vbox --hardwareuuid 5fbdb469-c08c-444e-a2ce-dde71ca4d24d 
 -- toignoreVK7JG-NPHTM-C97JM-9MPGT-3V66Ttoignore
+-- https://www.edv-lehrgang.de/vdi-datei-verschieben/
