@@ -1,3 +1,4 @@
+-- OSX Terminal
 -- videomode festlegen mit VboxManage
 VBoxManage setextradata "win7Lon" "CustomVideoMode1" "2560x1440x32"
 -- Windows aktivierung beim importieren umgehen
